@@ -11,14 +11,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 /* Global */
-@import './global/global.css';
-@import './global/cores.css';
-@import './global/tipografia.css';
+@import 'css/global/global.css';
+@import 'css/global/cores.css';
+@import 'css/global/tipografia.css';
 
 /* Sections */
-@import './sections/menu.css';
-@import './sections/hero.css';
-@import './sections/experiencias.css';
-@import './sections/formacao.css';
-@import './sections/contato.css';
-@import './sections/rodape.css';
+@import 'css/sections/menu.css';
+@import 'css/sections/hero.css';
+@import 'css/sections/experiencias.css';
+@import 'css/sections/formacao.css';
+@import 'css/sections/contato.css';
+@import 'css/sections/rodape.css';
