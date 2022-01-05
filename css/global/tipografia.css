@@ -1,0 +1,85 @@
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.texto-branding {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.texto-categoria {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.texto-xxg {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.texto-xg {
+  font-size: 2.25rem;
+}
+
+.texto-xg-b {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.texto-g {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.texto-g-b {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.texto-m-2 {
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+.texto-m {
+  font-size: 1.125rem;
+  line-height: 1.22;
+}
+
+@media (max-width: 500px) {
+  .texto-xxg {
+    font-size: 2.8rem;
+  }
+
+  .texto-xg {
+    font-size: 1.3em;
+  }
+
+  .texto-xg-b {
+    font-size: 2rem;
+  }
+
+  .texto-g {
+    font-size: 1.2rem;
+  }
+
+  .texto-g-b {
+    font-size: 1.4rem;
+  }
+
+  .texto-m {
+    font-size: 1rem;
+  }
+
+  .texto-branding {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .texto-categoria {
+    font-size: 2.2rem;
+  }
+}

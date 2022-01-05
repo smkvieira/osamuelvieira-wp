@@ -1,0 +1,15 @@
+.contato {
+  display: flex;
+  gap: 40px;
+}
+
+.contato > .section-body > p {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .contato {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+/* Global */
+@import './global/global.css';
+@import './global/cores.css';
+@import './global/tipografia.css';
+
+/* Sections */
+@import './sections/menu.css';
+@import './sections/hero.css';
+@import './sections/experiencias.css';
+@import './sections/formacao.css';
+@import './sections/contato.css';
+@import './sections/rodape.css';
