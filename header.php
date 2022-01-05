@@ -24,7 +24,7 @@
   <header>
     <nav>
       <div class="navbar container">
-        <div class="texto-branding cor-c9">Samuel Vieira</div>
+        <div class="texto-branding cor-c9"><a href="/">Samuel Vieira</a></div>
         <div class="navbar-menu">
           <ul class="texto-m">
             <li><a href="#experiencias">Experiência</a></li>

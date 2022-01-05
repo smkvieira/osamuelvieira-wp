@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-Usando Index
+Usando Home
 <section class="hero">
 <div class="hero container" id="perfil">
     <div class="hero-perfil">
