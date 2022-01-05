@@ -3,7 +3,6 @@
 ?>
 
 <?php get_header(); ?>
-Usando Template Home
 <section class="hero">
 <div class="hero container" id="perfil">
     <div class="hero-perfil">
@@ -60,36 +59,34 @@ Usando Template Home
 </section>
 
 <section id="formacao" class="dark-bg padding">
-<div class="container formacao">
-    <div class="section-title">
-    <h2 class="texto-categoria cor-d1">Formação</h2>
-    </div>
-    <div class="section-body">
-    <ul class="formacao-cards">
-        <li class="formacao-cards-item">
-        <h3 class="texto-m-2 cor-c7 nome">Análise e Desenvolvimento de Sistemas</h3>
-        <p class="texto-m cor-c5 local">Universidade Estácio de Sá</p>
-        <p class="texto-g-b cor-c6 tipo">Graduação</p>
-        </li>
-        <li class="formacao-cards-item">
-        <div class="formacao-cards-item-meta">
-            <h3 class="texto-m-2 cor-c7 nome">Análise e Desenvolvimento de Sistemas</h3>
-            <p class="texto-m cor-c5 local">Fundação Instituto Tecnológico de Osasco</p>
+    <div class="container formacao">
+        <div class="section-title">
+            <h2 class="texto-categoria cor-d1"><?php the_field('formacao_titulo') ?></h2>
         </div>
-        <p class="texto-g-b cor-c6 tipo">Ensino Técnico</p>
-        </li>
-    </ul>
-    <div class="formacao-cursos">
-        <h3 class="texto-g-b cor-c1">Cursos</h3>
-        <ul class="texto-m cor-c2">
-        <li class="andamento">UI/UX Design e Front End - Origamid</li>
-        <li class="andamento">Fullstack - B7Web</li>
-        <li class="concluido">Curso de SEO - Consultoria Digital</li>
-        <li class="concluido">Checklist SEO - Rafael Rez</li>
-        </ul>
+        <div class="section-body">
+            <ul class="formacao-cards">
+            <?php
+                $formacoes = get_field('formacoes');
+                if (isset($formacoes)) { foreach ($formacoes as $formacao) {?>
+                <li class="formacao-cards-item">
+                    <h3 class="texto-m-2 cor-c7 nome"><?php echo $formacao['area']; ?></h3>
+                    <p class="texto-m cor-c5 local"><?php echo $formacao['instituicao']; ?></p>
+                    <p class="texto-g-b cor-c6 tipo"><?php echo $formacao['tipo']; ?></p>
+                </li>
+                <?php } } ?>
+            </ul>
+            <div class="formacao-cursos">
+                <h3 class="texto-g-b cor-c1">Cursos</h3>
+                <ul class="texto-m cor-c2">
+                <?php
+                    $cursos = get_field('cursos');
+                    if (isset($cursos)) { foreach ($cursos as $curso) {?>
+                    <li class="<?php echo $curso['status'] ?>"><?php echo $curso['nome']; ?></li>
+                    <?php } } ?>
+                </ul>
+            </div>
+        </div>
     </div>
-    </div>
-</div>
 </section>
 
 <section id="contato" class="padding">
