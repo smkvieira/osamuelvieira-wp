@@ -1,9 +1,13 @@
+<?php
+    //Template Name: Homepage
+?>
+
 <?php get_header(); ?>
-Usando Home
+Usando Template Home
 <section class="hero">
 <div class="hero container" id="perfil">
     <div class="hero-perfil">
-    <img src="<?php echo get_stylesheet_directory_uri() ?>/img/perfil-sq.jpg" alt="Samuel Vieira">
+    <img src="<?php the_field('imagem') ?>">
     </div>
     <div class="hero-info">
     <div class="hero-info-icons">
@@ -15,8 +19,8 @@ Usando Home
         <a href="https://www.behance.net/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/behance.svg" alt="behance" class="hero-info-icon"></a>
     </div>
     <div class="hero-info-main">
-        <h1 class="texto-xxg cor-c9">Analista de SEO & Estudante Front End</h1>
-        <span class="texto-g cor-c7">São Paulo</span>
+        <h1 class="texto-xxg cor-c9"><?php the_field('headline') ?></h1>
+        <span class="texto-g cor-c7"><?php the_field('localizacao') ?></span>
     </div>
     </div>
 </div>
