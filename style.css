@@ -22,3 +22,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import 'css/paginas/homepage/experiencias.css';
 @import 'css/paginas/homepage/formacao.css';
 @import 'css/paginas/homepage/contato.css';
+
+/* Páginas */
+@import 'css/paginas/paginas/page.css';

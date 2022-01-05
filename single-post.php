@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-Usando page
+Usando single-post
 
 <section>
     <div class="container corpo-pagina">

@@ -1,5 +1,11 @@
 <?php get_header(); ?>
-<div class="linha">
-<h1>Ops! Não foi possível encontrar essa página.</h1>
-</div>
+
+<section>
+    <div class="container corpo-pagina">
+        <div class="titulo-pagina">
+            <h1 class="texto-xg cor-c9">Não é possível exibir essa página.</h1>
+        </div>
+    </div>
+</section>
+
 <?php get_footer(); ?>

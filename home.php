@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-Usando page
+Usando Home
 
 <section>
     <div class="container corpo-pagina">
@@ -7,11 +7,7 @@ Usando page
     <div class="titulo-pagina">
         <h1 class="texto-xg cor-c9"><?php the_title(); ?></h1>
     </div>
-    <div class="conteudo-pagina texto-m cor-c7">
-        <?php the_content(); ?>
-    </div>
     
-        
     <?php endwhile; else: ?>
         <div class="conteudo-pagina texto-m cor-c7">
             <p>Não há nada para exibir.</p>
