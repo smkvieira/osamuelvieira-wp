@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
 
-  <link rel="icon" type="image/png" href="../img/favicon.png" />
+  <link rel="icon" type="image/png" href=".<?php echo get_stylesheet_directory_uri() ?>/img/favicon.png" />
 </head>
 
 <body>
@@ -35,16 +35,16 @@
   <section class="hero">
     <div class="hero container" id="perfil">
       <div class="hero-perfil">
-        <img src="./img/perfil-sq.jpg" alt="Samuel Vieira">
+        <img src="<?php echo get_stylesheet_directory_uri() ?>/img/perfil-sq.jpg" alt="Samuel Vieira">
       </div>
       <div class="hero-info">
         <div class="hero-info-icons">
-          <a href="http://instagra.com/speixoto_" target="_blank"><img src="./img/instagram.svg" alt="instagram" class="hero-info-icon"></a>
-          <a href="https://www.linkedin.com/in/samuel-p-vieira/" target="_blank"><img src="./img/linkedin.svg" alt="linkedin" class="hero-info-icon"></a>
-          <a href="https://twitter.com/speixoto_" target="_blank"><img src="./img/twitter.svg" alt="Twiter" class="hero-info-icon"></a>
-          <a href="https://github.com/smkvieira" target="_blank"><img src="./img/github.svg" alt="github" class="hero-info-icon"></a>
-          <a href="https://dribbble.com/smkvieira" target="_blank"><img src="./img/dribble.svg" alt="dribble" class="hero-info-icon"></a>
-          <a href="https://www.behance.net/speixoto_" target="_blank"><img src="./img/behance.svg" alt="behance" class="hero-info-icon"></a>
+          <a href="http://instagra.com/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/instagram.svg" alt="instagram" class="hero-info-icon"></a>
+          <a href="https://www.linkedin.com/in/samuel-p-vieira/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/linkedin.svg" alt="linkedin" class="hero-info-icon"></a>
+          <a href="https://twitter.com/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/twitter.svg" alt="Twiter" class="hero-info-icon"></a>
+          <a href="https://github.com/smkvieira" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/github.svg" alt="github" class="hero-info-icon"></a>
+          <a href="https://dribbble.com/smkvieira" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/dribble.svg" alt="dribble" class="hero-info-icon"></a>
+          <a href="https://www.behance.net/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/behance.svg" alt="behance" class="hero-info-icon"></a>
         </div>
         <div class="hero-info-main">
           <h1 class="texto-xxg cor-c9">Analista de SEO & Estudante Front End</h1>
@@ -159,12 +159,12 @@
         <p class="texto-xg cor-c7"><a href="mailto:samuelpeixotovieira@gmail.com">samuelpeixotovieira<wbr>@gmail.com</a></p>
         <div class="hero-info">
           <div class="hero-info-icons">
-            <a href="http://instagra.com/speixoto_" target="_blank"><img src="./img/instagram.svg" alt="instagram" class="hero-info-icon"></a>
-            <a href="https://www.linkedin.com/in/samuel-p-vieira/" target="_blank"><img src="./img/linkedin.svg" alt="linkedin" class="hero-info-icon"></a>
-            <a href="https://twitter.com/speixoto_" target="_blank"><img src="./img/twitter.svg" alt="Twiter" class="hero-info-icon"></a>
-            <a href="https://github.com/smkvieira" target="_blank"><img src="./img/github.svg" alt="github" class="hero-info-icon"></a>
-            <a href="https://dribbble.com/smkvieira" target="_blank"><img src="./img/dribble.svg" alt="dribble" class="hero-info-icon"></a>
-            <a href="https://www.behance.net/speixoto_" target="_blank"><img src="./img/behance.svg" alt="behance" class="hero-info-icon"></a>
+            <a href="http://instagra.com/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/instagram.svg" alt="instagram" class="hero-info-icon"></a>
+            <a href="https://www.linkedin.com/in/samuel-p-vieira/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/linkedin.svg" alt="linkedin" class="hero-info-icon"></a>
+            <a href="https://twitter.com/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/twitter.svg" alt="Twiter" class="hero-info-icon"></a>
+            <a href="https://github.com/smkvieira" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/github.svg" alt="github" class="hero-info-icon"></a>
+            <a href="https://dribbble.com/smkvieira" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/dribble.svg" alt="dribble" class="hero-info-icon"></a>
+            <a href="https://www.behance.net/speixoto_" target="_blank"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/behance.svg" alt="behance" class="hero-info-icon"></a>
           </div>
         </div>
       </div>
