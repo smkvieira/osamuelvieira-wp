@@ -13,12 +13,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* Global */
 @import 'css/global/global.css';
 @import 'css/global/cores.css';
+@import 'css/global/menu.css';
+@import 'css/global/rodape.css';
 @import 'css/global/tipografia.css';
 
-/* Sections */
-@import 'css/sections/menu.css';
-@import 'css/sections/hero.css';
-@import 'css/sections/experiencias.css';
-@import 'css/sections/formacao.css';
-@import 'css/sections/contato.css';
-@import 'css/sections/rodape.css';
+/* Homepage */
+@import 'css/paginas/homepage/hero.css';
+@import 'css/paginas/homepage/experiencias.css';
+@import 'css/paginas/homepage/formacao.css';
+@import 'css/paginas/homepage/contato.css';
