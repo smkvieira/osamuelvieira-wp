@@ -13,7 +13,10 @@
 
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css">
 
-  <link rel="icon" type="image/png" href=".<?php echo get_stylesheet_directory_uri() ?>/img/favicon.png" />
+  <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() ?>/img/favicon.png" />
+
+  <!-- Header Wordpress -->
+  <?php wp_head(); ?>
 </head>
 
 <body>

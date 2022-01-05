@@ -6,6 +6,9 @@
   </footer>
 
   <script src="script.js"></script>
+
+  <!-- Footer Wordpress -->
+  <?php wp_footer(); ?>
 </body>
 
 </html>
