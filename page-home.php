@@ -29,34 +29,33 @@ Usando Template Home
 <section id="experiencias" class="padding">
     <div class="experiencias container">
         <div class="section-title">
-            <h2 class="texto-categoria cor-d1">Experiências</h2>
+            <h2 class="texto-categoria cor-d1"><?php the_field('experiencia_titulo') ?></h2>
         </div>
         <div class="section-body texto-g cor-c7">
             <div class="linha">
-                <p>Analista Sênior de <strong>SEO técnico</strong> aprendendo mais sobre o mundo de desenolvimento <strong>front end.</strong></p>
+                <p><?php the_field('experiencia_descricao') ?></p>
             </div>
-
-    <?php $experiencias = get_field('experiencias');  ?>
-        <?php if (isset($experiencias)) { ?>
             <ul class="experiencias-cards">
-            <?php foreach ($experiencias as $experiencia){ ?>
-            <li class="experiencias-card-item">
-                <div class="experiencias-meta">
-                    <div class="experiencias-meta-empresa">
-                        <h3 class="texto-g-b cor-c7"><?php echo $experiencia['empresa']; ?></h3>
-                        <p class="texto-g-b cor-c4"><?php echo $experiencia['cargo']; ?></p>
-                    </div>
-                    <div class="texto-m cor-c4 experiencias-meta-ano">
-                        <p><?php echo $experiencia['ano']; ?></p>
-                    </div>
-                </div>
-                <div class="texto-m cor-c7 experiencias-content">
-                    <p><?php echo $experiencia['descricao']; ?></p>
-                </div>
-            </li>
-            <?php } ?>
+                <?php
+                    $experiencias = get_field('experiencias');
+                    if (isset($experiencias)) { foreach ($experiencias as $experiencia) {?>
+                    <li class="experiencias-card-item">
+                        <div class="experiencias-meta">
+                            <div class="experiencias-meta-empresa">
+                                <h3 class="texto-g-b cor-c7"><?php echo $experiencia['empresa']; ?></h3>
+                                <p class="texto-g-b cor-c4"><?php echo $experiencia['cargo']; ?></p>
+                            </div>
+                            <div class="texto-m cor-c4 experiencias-meta-ano">
+                                <p><?php echo $experiencia['ano']; ?></p>
+                            </div>
+                        </div>
+                        <div class="texto-m cor-c7 experiencias-content">
+                            <p><?php echo $experiencia['atribuicoes']; ?></p>
+                        </div>
+                    </li>
+                <?php } } ?>
             </ul>
-        <?php } ?>
+        </div>
     </div>
 </section>
 

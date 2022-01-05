@@ -17,7 +17,12 @@ function the_field($key, $page_id = 0){
     echo get_field ($key, $page_id);
 }
 
-// ******************************************** Página Home ********************************************
+/************************************
+ *                                  *
+ * HOMEPAGE                         *
+ *                                  *
+*************************************/
+// ************** PERFIL
 add_action('cmb2_admin_init', 'cmb2_fields_home');
 // array('item1', 'item2') === ['item1', 'item2']
 function cmb2_fields_home() {
@@ -55,7 +60,7 @@ function cmb2_fields_home() {
   ]);
 
 
-
+// ************** EXPERIÊNCIAS
   $cmb_experiencias = new_cmb2_box([
     'id' => 'box_home_experiencias', // id deve ser único
     'title' => 'Experiências',
@@ -65,8 +70,21 @@ function cmb2_fields_home() {
       'value' => 'page-home.php',
     ], // modelo de página
   ]);
+
+  $cmb_experiencias->add_field([
+    'name' => 'Título',
+    'id' => 'experiencia_titulo',
+    'type' => 'text',
+  ]);
+
+  $cmb_experiencias->add_field([
+    'name' => 'Descrição',
+    'id' => 'experiencia_descricao',
+    'type' => 'text',
+  ]);
+
   $experiencias = $cmb_experiencias->add_field([
-    // 'name' => 'Experiências',
+    'name' => 'Experiências',
     'id' => 'experiencias',
     'type' => 'group',
     'repeatable' => true,
@@ -78,26 +96,26 @@ function cmb2_fields_home() {
     ],
   ]);
 
-$cmb_experiencias->add_group_field($experiencias,[
+  $cmb_experiencias->add_group_field($experiencias,[
     'name' => 'Empresa',
     'id' => 'empresa',
     'type' => 'text',
-]);
-$cmb_experiencias->add_group_field($experiencias,[
+  ]);
+  $cmb_experiencias->add_group_field($experiencias,[
     'name' => 'Cargo',
     'id' => 'cargo',
     'type' => 'text',
-]);
-$cmb_experiencias->add_group_field($experiencias,[
+  ]);
+  $cmb_experiencias->add_group_field($experiencias,[
     'name' => 'Ano',
     'id' => 'ano',
     'type' => 'text_small',
-]);
-$cmb_experiencias->add_group_field($experiencias,[
-    'name' => 'Descrição',
-    'id' => 'descricao',
+  ]);
+  $cmb_experiencias->add_group_field($experiencias,[
+    'name' => 'Descrição das atribuições',
+    'id' => 'atribuicoes',
     'type' => 'textarea',
-]);
+  ]);
 }
 
 /***********************************************************************
