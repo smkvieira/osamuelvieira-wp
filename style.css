@@ -1,0 +1,24 @@
+/*
+Theme Name: O Samuel Vieira
+Theme URI: https://osamuelvieira.com.br/
+Author: Samuel Vieira
+Author URI: https://osamuelvieira.com.br/
+Description: Tema desenvolvido para meu próprio site pessoal.
+Version: 1.0
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Global */
+@import './global/global.css';
+@import './global/cores.css';
+@import './global/tipografia.css';
+
+/* Sections */
+@import './sections/menu.css';
+@import './sections/hero.css';
+@import './sections/experiencias.css';
+@import './sections/formacao.css';
+@import './sections/contato.css';
+@import './sections/rodape.css';
