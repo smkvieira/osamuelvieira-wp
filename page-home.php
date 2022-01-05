@@ -27,65 +27,37 @@ Usando Template Home
 </section>
 
 <section id="experiencias" class="padding">
-<div class="experiencias container">
-    <div class="section-title">
-    <h2 class="texto-categoria cor-d1">Experiências</h2>
+    <div class="experiencias container">
+        <div class="section-title">
+            <h2 class="texto-categoria cor-d1">Experiências</h2>
+        </div>
+        <div class="section-body texto-g cor-c7">
+            <div class="linha">
+                <p>Analista Sênior de <strong>SEO técnico</strong> aprendendo mais sobre o mundo de desenolvimento <strong>front end.</strong></p>
+            </div>
+
+    <?php $experiencias = get_field('experiencias');  ?>
+        <?php if (isset($experiencias)) { ?>
+            <ul class="experiencias-cards">
+            <?php foreach ($experiencias as $experiencia){ ?>
+            <li class="experiencias-card-item">
+                <div class="experiencias-meta">
+                    <div class="experiencias-meta-empresa">
+                        <h3 class="texto-g-b cor-c7"><?php echo $experiencia['empresa']; ?></h3>
+                        <p class="texto-g-b cor-c4"><?php echo $experiencia['cargo']; ?></p>
+                    </div>
+                    <div class="texto-m cor-c4 experiencias-meta-ano">
+                        <p><?php echo $experiencia['ano']; ?></p>
+                    </div>
+                </div>
+                <div class="texto-m cor-c7 experiencias-content">
+                    <p><?php echo $experiencia['descricao']; ?></p>
+                </div>
+            </li>
+            <?php } ?>
+            </ul>
+        <?php } ?>
     </div>
-    <div class="section-body texto-g cor-c7">
-    <div class="linha">
-        <p>Analista Sênior de <strong>SEO técnico</strong> aprendendo mais sobre o mundo de desenolvimento <strong>front end.</strong></p>
-    </div>
-    <ul class="experiencias-cards">
-
-        <li class="experiencias-card-item">
-        <div class="experiencias-meta">
-            <div class="experiencias-meta-empresa">
-            <h3 class="texto-g-b cor-c7">Creditas</h3>
-            <p class="texto-g-b cor-c4">Analista de SEO Sr.</p>
-            </div>
-            <div class="texto-m cor-c4 experiencias-meta-ano">
-            <p>2020 - atual</p>
-            </div>
-        </div>
-        <div class="texto-m cor-c7 experiencias-content">
-            <p>Responsável pelo SEO Técnico da companhia. Trabalho lado a lado diariamente com times de desenvolvimento e tecnologia para entregas as melhores soluções. Foco em performance, core web vitals e rastreabilidade.</p>
-        </div>
-        </li>
-
-        <li class="experiencias-card-item">
-        <div class="experiencias-meta">
-            <div class="experiencias-meta-empresa">
-            <h3 class="texto-g-b cor-c7">Consultoria Digital</h3>
-            <p class="texto-g-b cor-c4">Analista de Marketing</p>
-            </div>
-            <div class="texto-m cor-c4 experiencias-meta-ano">
-            <p>2017 - 2020</p>
-            </div>
-        </div>
-        <div class="texto-m cor-c7 experiencias-content">
-            <p>Responsável por toda estratégia digital de uma carteira de clientes composta dos mais variados segmentos, como sites institucionais B2B, blogs culinários, moda, e-commerces variados, plataformas de vendas de cursos e etc.</p>
-        </div>
-        </li>
-
-        <li class="experiencias-card-item">
-        <div class="experiencias-meta">
-            <div class="experiencias-meta-empresa">
-            <h3 class="texto-g-b cor-c7">Consultoria Digital</h3>
-            <p class="texto-g-b cor-c4">Analista de SEO</p>
-            </div>
-            <div class="texto-m cor-c4 experiencias-meta-ano">
-            <p>2016 - 2017</p>
-            </div>
-        </div>
-        <div class="texto-m cor-c7 experiencias-content">
-            <p>Responsável pelo acompanhamento de resultados, definição de estratégias, acompanhamento de tendências, auditorias e tudo que envolvia as estratégias de SEO dos meus clientes.</p>
-        </div>
-        </li>
-
-    </ul>
-
-    </div>
-</div>
 </section>
 
 <section id="formacao" class="dark-bg padding">
