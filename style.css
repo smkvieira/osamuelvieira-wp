@@ -25,3 +25,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Páginas */
 @import 'css/paginas/paginas/page.css';
+
+/* Posts */
+@import 'css/paginas/posts/listagem-posts.css';

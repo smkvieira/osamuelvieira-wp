@@ -44,6 +44,10 @@
   line-height: 1.22;
 }
 
+.texto-s {
+  font-size: 0.8rem;
+}
+
 @media (max-width: 500px) {
   .texto-xxg {
     font-size: 2.8rem;
