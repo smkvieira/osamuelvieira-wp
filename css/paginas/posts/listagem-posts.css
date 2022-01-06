@@ -30,7 +30,10 @@
     flex-direction: column;
     gap: 10px;
   }
-  .post-img-destaque,
+  .post-img-destaque {
+    width: 100%;
+  }
+
   .post-container img {
     width: 100%;
   }
