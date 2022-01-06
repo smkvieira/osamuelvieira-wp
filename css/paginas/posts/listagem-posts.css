@@ -24,3 +24,14 @@
 .post-meta-info h1:hover {
   color: var(--cor-d1);
 }
+
+@media (max-width: 600px) {
+  .post-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .post-img-destaque,
+  .post-container img {
+    width: 100%;
+  }
+}
