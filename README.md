@@ -1,6 +1,6 @@
 # Tema pessoal "osamuelvieira" para Wordpress
 
-Versão atual: `1.1`
+Versão atual: `1.2`
 Desenvolvido por [**Samuel Vieira**](https://github.com/smkvieira). Todos os direitos reservados.
 
 ## Sobre o projeto
@@ -12,13 +12,13 @@ O principal objetivo desse projeto é praticar os aprendizados obtidos nos curso
 **Próximos passos**
 
 - [x] Tornar a home dinâmica
-- [ ] Ajustar `title` das páginas
+- [ ] Ajustar `title` das páginas (Melhorar comportamento)
 - [x] Criar template de listagem de artigos do blog
-- [ ] Criar paginação de blog (10 artigos por página)
+- [x] Criar paginação de blog (10 artigos por página)
 - [x] Criar template de blog post
 - [ ] Criar template de página de categoria
 - [ ] Criar template de página de busca
-- [ ] Desenvolver menu de blog
+- [ ] Desenvolver menu dinâmico
 - [ ] Definir cores do site de forma variável
 - [ ] Refatorar página 404
 
