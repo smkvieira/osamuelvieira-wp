@@ -1,0 +1,27 @@
+.post-faturedimage {
+  height: 70vh;
+  position: relative;
+}
+
+.post-header-meta {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-width: 1160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  .post-faturedimage {
+    height: 50vh;
+  }
+  .post-header-meta {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

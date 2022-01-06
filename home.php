@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-Usando Home
+<!-- Listagem de posts -->
 
 <section>
     <div class="container corpo-pagina">
