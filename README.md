@@ -1,6 +1,5 @@
 # Tema pessoal "osamuelvieira" para Wordpress
 
-Versão atual: `1.2`
 Desenvolvido por [**Samuel Vieira**](https://github.com/smkvieira). Todos os direitos reservados.
 
 ## Sobre o projeto
