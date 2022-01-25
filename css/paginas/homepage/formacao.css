@@ -40,13 +40,13 @@
 }
 
 .formacao-cursos li.andamento::before {
-  content: url(/wp-content/themes/osamuelvieira/img/relogio.svg);
+  content: url(/wp-content/themes/osamuelvieira-wp/img/relogio.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
 
 .formacao-cursos li.concluido::before {
-  content: url(/wp-content/themes/osamuelvieira/img/check.svg);
+  content: url(/wp-content/themes/osamuelvieira-wp/img/check.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
