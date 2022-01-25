@@ -22,6 +22,7 @@ O principal objetivo desse projeto é praticar os aprendizados obtidos nos curso
 - [ ] Definir cores do site de forma variável
 - [ ] Refatorar página 404
 - [ ] Tornar icones de redes sociais dinâmicos (via CMB2)
+- [X] Incluir dependência di plugin CMB2
 
 ## Changelog
 
