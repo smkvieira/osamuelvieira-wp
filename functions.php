@@ -16,6 +16,8 @@
     *                                                                      *
     ************************************************************************/
 
+    require_once(get_template_directory() . '/includes/tgmpa/tgmpa-configuration.php');
+
     function get_field($key, $page_id = 0){
         $id = $page_id !== 0 ? $page_id : get_the_ID(); //Se $page_id for diferente de 0, pega o page ID que a pessoa passou na função get_field
         return get_post_meta($id, $key, true);
