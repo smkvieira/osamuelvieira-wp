@@ -11,45 +11,14 @@ O principal objetivo desse projeto é praticar os aprendizados obtidos nos curso
 
 **Próximos passos**
 
-- [x] Tornar a home dinâmica
-- [ ] Ajustar `title` das páginas (Melhorar comportamento)
-- [x] Criar template de listagem de artigos do blog
-- [x] Criar paginação de blog (10 artigos por página)
-- [x] Criar template de blog post
+- [ ] Melhorar comportamento do `title` das páginas
 - [ ] Criar template de página de categoria
 - [ ] Criar template de página de busca
 - [ ] Desenvolver menu dinâmico
-- [ ] Definir cores do site de forma variável
 - [ ] Refatorar página 404
 - [ ] Tornar icones de redes sociais dinâmicos (via CMB2)
+- [x] Tornar a home dinâmica
+- [x] Criar template de listagem de artigos do blog
+- [x] Criar paginação de blog (10 artigos por página)
+- [x] Criar template de blog post
 - [X] Incluir dependência do plugin CMB2
-
-## Changelog
-
-**V1.2**
-_Começo do blog_
-
-- Criada versão inicial da página de listagem de posts
-- Criada versão inicial da página de single post
-
-**V1.1**
-_Finalizada a Home!_
-
-- Criado template _Homepage_ (`page-home.php`).
-- Criados Custom Fields usando o plugin gratuito _CMB2_ para a Homepage. Sections beneficiadas:
-  -- Perfil
-  -- Experiências
-  -- Cursos
-- Modificada `page-home.php` para usar conteúdos dinâmicos vindos do CMB2.
-- Ajuste no page title
-
-**V1.0**
-_Projeto iniciado._
-
-- Criada estrutura inicial
-- Ajuste de URLs de CSS e imagens
-- Organização do CSS do site
-- Criados principais templates de páginas com conteúdos genéricos (`index.php`,`home.php`,`page.php`,`single-post.php`).
-  -- Perfil
-  -- Experiências
-  -- Cursos
