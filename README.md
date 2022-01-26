@@ -13,7 +13,7 @@ O principal objetivo desse projeto é praticar os aprendizados obtidos nos curso
 - [X] Melhorar comportamento do `title` das páginas
 - [ ] Criar template de página de categoria
 - [ ] Criar template de página de busca
-- [ ] Desenvolver menu dinâmico
+- [X] Desenvolver menu dinâmico
 - [ ] Refatorar página 404
 - [ ] Tornar icones de redes sociais dinâmicos (via CMB2)
 - [x] Tornar a home dinâmica
