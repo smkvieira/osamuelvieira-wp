@@ -1,6 +1,7 @@
 <?php
 
     add_theme_support('post-thumbnails');
+    add_theme_support( 'title-tag' );
 
     //Limitando o tamanho do excerpt
     function custom_excerpt_length( $length ) {
