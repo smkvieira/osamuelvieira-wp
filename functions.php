@@ -2,6 +2,13 @@
 
     add_theme_support('post-thumbnails');
     add_theme_support( 'title-tag' );
+    add_theme_support( 'menus' );
+
+    // Register Navigation Menus
+    register_nav_menus( array(
+        'header'   => 'Header Menu',
+        'mobile'   => 'Mobile Menu',
+    ) );
 
     //Limitando o tamanho do excerpt
     function custom_excerpt_length( $length ) {

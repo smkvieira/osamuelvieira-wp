@@ -28,17 +28,40 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="navbar container">
-        <div class="texto-branding cor-c9"><a href="/">Samuel Vieira</a></div>
-        <div class="navbar-menu">
-          <ul class="texto-m">
-            <li><a href="#experiencias">Experiência</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
+
+<header class="container">
+      <div id="brand"><a href="/">Samuel Vieira</a></div>
+      <nav>
+      <?php
+        wp_nav_menu( array(
+            'theme_location'  => 'header',
+        ) );
+      ?>
+        <!-- <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul> -->
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="mobile-menu">
+        <?php
+        wp_nav_menu( array(
+            'theme_location'  => 'mobile',
+        ) );
+        ?>
         </div>
+        <!-- <ul class="mobile-menu">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/products">Products</a></li>
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="/login" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul> -->
       </div>
-    </nav>
-  </header>
+    </header>
