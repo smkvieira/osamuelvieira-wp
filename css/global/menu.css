@@ -43,10 +43,10 @@ nav ul a:hover {
   transition: 0.3s;
 }
 
-li.current-menu-item a {
+/* li.current-menu-item a {
   color: var(--cor-de3);
   font-weight: bold;
-}
+} */
 
 #hamburger-icon {
   margin: auto 0;
