@@ -10,7 +10,7 @@ O principal objetivo desse projeto é praticar os aprendizados obtidos nos curso
 
 **Próximos passos**
 
-- [ ] Melhorar comportamento do `title` das páginas
+- [X] Melhorar comportamento do `title` das páginas
 - [ ] Criar template de página de categoria
 - [ ] Criar template de página de busca
 - [ ] Desenvolver menu dinâmico
