@@ -5,7 +5,7 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri() ?>/script.js"></script>
 
   <!-- Footer Wordpress -->
   <?php wp_footer(); ?>
