@@ -94,7 +94,7 @@ nav ul a:hover {
   z-index: 999;
 }
 
-ul#menu-mobile {
+div.mobile-menu div ul {
   width: 100vw;
   margin-top: -15px;
 }
